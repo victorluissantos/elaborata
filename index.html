@@ -32,10 +32,48 @@
 			</form>
 		</div>
 		<div id="box_sistema" class="box_systen hide">
+			<table id="example" class="display" cellspacing="0" width="100%">
+			  <thead>
+			    <tr>
+			      <th>Nome</th>
+			      <th>Idade</th>
+			      <th>Telefone</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td><input type="text" value="1"/> </td>
+			      <td><input type="text" value="Vtap"/> </td>
+			      <td><input type="text" value="1"/> </td>
+			    </tr>
+			  </tbody>
+			</table>
+			<br />
+			<hr>
+			<br />
+			<table id="newRow">
+			  <tbody>
+			    <tr >
+			      <td><input type="text" value="" placeholder="Digite o nome"/></td>
+			      <td><input type="text" value="" placeholder="Digite a idade"/></td>
+			      <td><input type="text" value="" placeholder="Digite o telefone"/></td>
+			    </tr>
+			  </tbody>
+			  <tfoot>
+			  	<tr>
+			  		<td colspan="3">
+			  			<button class="btn btn-flat" id="addRow">Cadastrar Paciênte</button>
+			  		</td>
+			  	</tr>
+			  </tfoot>
+			</table>
+
+
 		</div>
 	</body>
 	<script type="text/javascript" src="assets/vendor/jQuery/jquery-1.9.1/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="assets/vendor/dataTables/js-1.10.20/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </html>
 <!--
 	Criar o arquivo composer conforme a necessidade para instalação do datatbles
