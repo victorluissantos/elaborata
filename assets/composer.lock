@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "cfda0ace182ee6df203992971bd2a9cc",
+    "content-hash": "4cd21e1359379aaa8a9d3b9c5db833fc",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "dataTables/css-1.10.20",
+            "version": "1.10.20",
+            "dist": {
+                "type": "file",
+                "url": "https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "dataTables/js-1.10.20",
+            "version": "1.10.20",
+            "dist": {
+                "type": "file",
+                "url": "https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "jQuery/jquery-1.9.1",
+            "version": "1.9.1",
+            "dist": {
+                "type": "file",
+                "url": "https://code.jquery.com/jquery-1.9.1.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

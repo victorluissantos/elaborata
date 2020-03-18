@@ -1,0 +1,50 @@
+{
+	"name": "Meu Livro",
+	"description": "Projeto Piloto para cadastro de clientes em clínica médica hospitalar",
+	"authors": [
+		{
+			"name": "Santos L. Victor",
+			"role": "Programador"
+		}
+	],
+	"require-dev": {
+		"jQuery/jquery-1.9.1":"*",
+		"dataTables/js-1.10.20":"*",
+		"dataTables/css-1.10.20":"*"
+	},
+ 	"repositories": [
+        {
+	        "type": "package",
+	        "package": {
+	            "name": "jQuery/jquery-1.9.1",
+	            "version": "1.9.1",
+	            "dist": {
+	                "url": "https://code.jquery.com/jquery-1.9.1.min.js",
+	                "type": "file"
+	            }
+	        }
+    	},
+    	{
+    		"type" : "package",
+    		"package": {
+    			"name": "dataTables/js-1.10.20",
+    			"version": "1.10.20",
+    			"dist": {
+    					"url": "https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js",
+    					"type": "file"
+    			}
+    		}
+    	},
+    	{
+    		"type" : "package",
+    		"package": {
+    			"name": "dataTables/css-1.10.20",
+    			"version": "1.10.20",
+    			"dist": {
+    					"url": "https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css",
+    					"type": "file"
+    			}
+    		}
+    	}
+    ]
+}

@@ -1,0 +1,222 @@
+body {
+	background-image: url('../img/bg.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 98%;
+	height: 780px;
+	overflow: hidden;
+}
+.box_login {
+	background-color: white;
+	width: 220px;
+	height: 220px;
+	padding: 18px;
+	margin-left: 40%;
+	margin-top: 20%;
+	animation: inside_in 2s;
+	position: absolute;
+	border-radius: 22px;
+}
+.titulo {
+	text-align: center;
+}
+.link {
+	text-decoration: none;
+	text-align: right;
+	margin-left: 52%;
+	color: #8B0000;
+	font-size: 12px;
+}
+.link:hover {
+	color: #FF0000;
+}
+.form_input {
+	border: 1px solid black;
+	padding: 8px;
+	width: 100%;
+	margin: 1%;
+}
+.btn {
+	padding: 12px;
+	cursor: pointer;
+	margin-left: 32%;
+	border: none;
+	color: white;
+	background-color: #8B0000;
+	margin-top: 15%;
+}
+.btn:hover {
+	border: none;
+	color: white;
+	background-color: #FF0000;
+}
+.virus {
+	background-image: url('../img/virus.svg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 120px;
+	height: 80px;
+	position: absolute;
+	cursor: pointer;
+	margin-top: 5%;
+	margin-left: -25%;
+}
+.aleatory_virus {
+	animation: aleatory_virus 5s infinite;
+}
+.bacteria {
+	background-image: url('../img/bacteria.svg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 120px;
+	height: 80px;
+	position: absolute;
+	cursor: pointer;
+	margin-top: 25%;
+	margin-left: -25%;
+}
+.aleatory_bacteria {
+	animation: aleatory_bacteria 8s infinite;
+}
+.tubo {
+	background-image: url('../img/tubo.svg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 120px;
+	height: 80px;
+	position: absolute;
+	cursor: pointer;
+	margin-top: 35%;
+	margin-left: -25%;
+}
+.aleator_tubo {
+	animation: aleator_tubo 12s infinite;
+}
+@keyframes inside_in {
+	0% {
+		margin-top: -20%;
+	}
+	100% {
+		margin-top: 20%;
+	}
+}
+@keyframes aleator_tubo {
+	10% {
+		margin-left: 27%;
+	}
+	18% {
+		margin-top: 45%;
+		opacity: 0.5;
+	}
+	32% {
+		margin-left: 41%;
+	}
+	49% {
+		margin-left: 62%;
+		opacity: 1;
+	}
+	60% {
+		margin-top: 20%;
+		margin-left: 82%;
+		transform: scale(0.5);
+	}
+	78% {
+		margin-left: 110%;
+		opacity: 0.1;
+	}
+	85% {
+		margin-left: 75%;
+		margin-top: 25%;
+	}
+	100% {
+		margin-top: 78%;
+		margin-left: -15%;
+	}
+
+}
+
+@keyframes aleatory_virus {
+	6% {
+		margin-left: 15%;
+		opacity: 0.3;
+	}
+	25% {
+		margin-top: 19%;
+		opacity: 0.9;
+	}
+	32% {
+		margin-top: 20%;
+		margin-left: 43%;
+		opacity: 0.4;
+		transform: scale(0.6);
+	}
+	40% {
+		margin-left: 54%;
+		opacity: 0.1;
+	}
+	60% {
+		margin-top: 59%;
+		margin-left: 87%;
+	}
+	75% {
+		margin-top: 120%;
+		margin-left: 51%;
+		opacity: 0.5;
+		transform: scale(0.9);
+	}
+	98% {
+		margin-left: 10%;
+		margin-top: 15%;
+		opacity: 1;
+	}
+}
+
+@keyframes aleatory_bacteria {
+	8% {
+		margin-left: 15%;
+		transform: rotate(65deg);
+
+	}
+	32% {
+		margin-top: 32%;
+		margin-left: 25%;
+		transform: rotate(95deg);
+	}
+	45% {
+		margin-top: 48%;
+		margin-left: 75%;
+		transform: rotate(182deg);
+	}
+	65% {
+		margin-top: 10%;
+		margin-left: 79%;
+	}
+	74% {
+		margin-top: 48%;
+		margin-left: 39%;
+		transform: rotate(215deg);
+	}
+	85% {
+		margin-top: 65%;
+		margin-left: 22%;
+		transform: rotate(195deg);
+	}
+	92% {
+		margin-top: 60%;
+		margin-left: 29%;
+		transform: rotate(99deg);
+	}
+	100% {
+		margin-left: -15%;
+		transform: rotate(65deg);
+	}
+}
+.box_systen {
+	background-color: white;
+	width: 95%;
+	margin-left: 3%;
+	height: 620px;
+}
+.hide {
+	display: none;
+}

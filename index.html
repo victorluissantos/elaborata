@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login Sistema Corona</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</hed>
+	<body>
+		<div class="virus aleatory_virus">
+		</div>
+		<div class="tubo aleator_tubo">
+		</div>
+		<div class="bacteria aleatory_bacteria">
+		</div>
+		<div id="box_login" class="box_login">
+			<h3 class="titulo">Controle Médico</h3>
+			<form action="#" method="POST">
+				<input class="form_input" type="text" name="login" placeholder="Digite seu login" requiered>
+				<input class="form_input" type="password" name="senha" placeholder="Digite sua senha" requiered>
+				<a class="link" href="recuperar">Recuperar senha</a>
+				<input 
+					class="btn"
+					type="button"
+					value="Acessar"
+					onClick="
+						document.getElementById('box_login').classList.add('hide');
+						document.getElementById('box_sistema').classList.remove('hide');
+						"
+					name="btn_acessa">
+			</form>
+		</div>
+		<div id="box_sistema" class="box_systen hide">
+		</div>
+	</body>
+</html>
+<!--
+	Criar o arquivo composer conforme a necessidade para instalação do datatbles
+	fazer load dos arquivos da vendor na index, os js e os css
+	criar uma pasta js dentro a assets
+	criar um arquivo chamado script.js
+	dentro do arquivo chamar o datatable.init conforme os exemplo do site do datatable
+	colocar uma classe na tabela
+	setar o tamanho 100% para a tabela dentro do já existente style.css
+-->
