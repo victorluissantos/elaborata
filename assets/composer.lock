@@ -4,16 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cfda0ace182ee6df203992971bd2a9cc",
-    "content-hash": "4cd21e1359379aaa8a9d3b9c5db833fc",
+    "hash": "d0b2216547c140047baf24f06e1d9427",
+    "content-hash": "eeca9623c3703e1ca5e43e5143ed4ec9",
     "packages": [],
     "packages-dev": [
+        {
+            "name": "dataTables/buttons",
+            "version": "1.6.1",
+            "dist": {
+                "type": "file",
+                "url": "https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "dataTables/buttons-min",
+            "version": "1.6.1",
+            "dist": {
+                "type": "file",
+                "url": "https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
         {
             "name": "dataTables/css-1.10.20",
             "version": "1.10.20",
             "dist": {
                 "type": "file",
                 "url": "https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "dataTables/flash",
+            "version": "1.6.1",
+            "dist": {
+                "type": "file",
+                "url": "https://cdn.datatables.net/buttons/1.6.1/js/buttons.flash.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "dataTables/html5",
+            "version": "1.6.1",
+            "dist": {
+                "type": "file",
+                "url": "https://cdn.datatables.net/buttons/1.6.1/js/buttons.html5.min.js",
                 "reference": null,
                 "shasum": null
             },
@@ -31,11 +75,66 @@
             "type": "library"
         },
         {
+            "name": "dataTables/jszip",
+            "version": "3.1.3",
+            "dist": {
+                "type": "file",
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "dataTables/pdfmake",
+            "version": "0.1.53",
+            "dist": {
+                "type": "file",
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "dataTables/print",
+            "version": "1.6.1",
+            "dist": {
+                "type": "file",
+                "url": "https://cdn.datatables.net/buttons/1.6.1/js/buttons.print.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "dataTables/vfs_fonts",
+            "version": "0.1.53",
+            "dist": {
+                "type": "file",
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
             "name": "jQuery/jquery-1.9.1",
             "version": "1.9.1",
             "dist": {
                 "type": "file",
                 "url": "https://code.jquery.com/jquery-1.9.1.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "jQuery/jquery-3.3.1",
+            "version": "3.3.1",
+            "dist": {
+                "type": "file",
+                "url": "https://code.jquery.com/jquery-3.3.1.js",
                 "reference": null,
                 "shasum": null
             },

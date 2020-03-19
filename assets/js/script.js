@@ -1,17 +1,21 @@
 /*https://jsfiddle.net/KyleMit/az1deo3r/*/
 $(document).ready(function() {
-	  // initialize table
+	// initialize table
     var t = $('#example').DataTable({
         paging:   false,
         bFilter: false, 
-        bInfo: false
+        bInfo: false,
+        dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
     });
     
- 		// add row
+ 	// add row
     $('#addRow').click(function () {
-        //t.row.add( [1,2,3] ).draw();
-        var rowHtml = $("#newRow").find("tr")[0].outerHTML
-        console.log(rowHtml);
+        
+        var rowHtml = '<tr><td>'+$("#newRow").find("tr td input")[0].value+'</td><td>'+$("#newRow").find("tr td input")[1].value+'</td><td>'+$("#newRow").find("tr td input")[2].value+'</td></tr>';
+
         t.row.add($(rowHtml)).draw();
     });
  
